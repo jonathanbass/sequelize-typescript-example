@@ -9,3 +9,8 @@ npm install
 ```
 npm start
 ```
+
+## Migrate Database
+```
+sequelize db:migrate
+```

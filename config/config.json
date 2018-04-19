@@ -1,0 +1,34 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "Bd6320db-8C90-4942",
+    "database": "test-db",
+    "dialect": "mssql",
+    "host": "localhost",
+    "dialectOptions": {
+      "port": 1433
+    }
+  },
+  "test": {
+    "username": "sa",
+    "password": "E9e26fFe-5694-4204",
+    "database": "test-db",
+    "host": "localhost",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "instanceName": "(localdb)\\MSSQLLocalDB",
+      "trustedConnection": true
+    }
+  },
+  "production": {
+    "username": "sa",
+    "password": "E9e26fFe-5694-4204",
+    "database": "test-db",
+    "host": "localhost",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "instanceName": "(localdb)\\MSSQLLocalDB",
+      "trustedConnection": true
+    }
+  }
+}

@@ -1,15 +1,13 @@
 import { Sequelize } from 'sequelize-typescript';
 
 export const sequelize = new Sequelize({
-  dialect: 'mssql',
   username: 'sa',
-  password: 'xxxx',
-  dialectModulePath: 'sequelize-msnodesqlv8',
-  dialectOptions: {
-    instanceName: '(localdb)\MSSQLLocalDB',
-    trustedConnection: true
-  },
+  password: 'Bd6320db-8C90-4942',
   host: 'localhost',
+  dialect: 'mssql',
+  dialectOptions: {
+    port: 1433
+  },
   database: 'test-db',
   modelPaths: [__dirname + '/models']
 });
