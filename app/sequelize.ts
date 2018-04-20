@@ -2,7 +2,7 @@ import { Sequelize } from 'sequelize-typescript';
 
 export const sequelize = new Sequelize({
   username: 'sa',
-  password: 'Bd6320db-8C90-4942',
+  password: 'XXX',
   host: 'localhost',
   dialect: 'mssql',
   dialectOptions: {
