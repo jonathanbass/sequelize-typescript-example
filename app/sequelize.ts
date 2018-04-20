@@ -8,6 +8,6 @@ export const sequelize = new Sequelize({
   dialectOptions: {
     port: 1433
   },
-  database: 'test-db',
+  database: 'cinema',
   modelPaths: [__dirname + '/models']
 });

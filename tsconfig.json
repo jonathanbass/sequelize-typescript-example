@@ -1,7 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "target": "es6",
+    "target": "es2015",
     "module": "commonjs",
     "moduleResolution": "node",
     "experimentalDecorators": true,
@@ -13,7 +13,7 @@
     "strictNullChecks": true
   },
   "include": [
-    "lib/**/*.ts",
+    "app/**/*.ts",
     "index.ts"
   ],
   "exclude": [

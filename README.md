@@ -1,16 +1,16 @@
 # sequelize-typescript-starter
 
 ## Installation
-```
-npm install
-```
+`npm install`
+
+## Allow MSSQL Database to take TCP Connections on Default Port
+
+`Please refer to this` [StackOverflow answer](https://stackoverflow.com/a/11921896/3710110)
 
 ## Start server
-```
-npm start
-```
+
+`npm start`
 
 ## Migrate Database
-```
-sequelize db:migrate
-```
+
+`run the file ./migration/migrations.sql in SSMS against a connection to a database named "cinema"`
