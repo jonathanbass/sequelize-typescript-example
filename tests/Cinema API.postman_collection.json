@@ -1,0 +1,113 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Cinema API",
+		"_postman_id": "d47f8573-dbd3-7391-b30b-232cfc42074c",
+		"description": "Actors\nMovies",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "actors",
+			"request": {
+				"url": "http://localhost:3000/actors",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "movies",
+			"request": {
+				"url": "http://localhost:3000/movies",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "movies",
+			"request": {
+				"url": "http://localhost:3000/movies",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Star Wars: The Force Awakens\",\n    \"year\": 2015\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "actors",
+			"request": {
+				"url": "http://localhost:3000/actors",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"firstName\": \"Megan\", \n\t\"lastName\": \"Fox\",\n\t\"birthday\": \"1990-01-01\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "actors",
+			"request": {
+				"url": "http://localhost:3000/actors/2",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"firstName\": \"Leonardo\", \n\t\"lastName\": \"DiCaprio\",\n\t\"birthday\": \"1978-01-01\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "movies",
+			"request": {
+				"url": "http://localhost:3000/movies/2",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Star Wars: The Force Awakens\",\n    \"year\": 2015\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

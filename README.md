@@ -5,7 +5,7 @@
 
 ## Allow MSSQL Database to take TCP Connections on Default Port
 
-`Please refer to this` [StackOverflow answer](https://stackoverflow.com/a/11921896/3710110)
+Please refer to this [StackOverflow answer](https://stackoverflow.com/a/11921896/3710110)
 
 ## Start server
 
@@ -13,4 +13,8 @@
 
 ## Migrate Database
 
-`run the file ./migration/migrations.sql in SSMS against a connection to a database named "cinema"`
+run the file `./migration/migrations.sql` in SSMS against a connection to a database named `cinema`
+
+## Manual Tests
+
+import into [Postman](https://www.getpostman.com/) the following file `./tests/Cinema API.postman_collection.js`
